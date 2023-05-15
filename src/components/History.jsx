@@ -11,7 +11,7 @@ const History = ({history, moveTo, currentMove}) => {
                         <button className={`btn-move ${currentMove===index ? 'active' : ''}`} onClick={()=>moveTo
                         (index)} type="button" >{ index === 0 ? 'Go to game start' : `Go to move #${index}` }</button>
                     </li>
-                    
+                     
                 ))
             }
         </ul>
